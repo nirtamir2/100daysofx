@@ -25,10 +25,10 @@ export default {
   cursor: pointer;
   box-shadow: 0 3px 6px #00000016;
   transition: box-shadow 0.2s ease-in;
-}
 
-.button:hover {
-  box-shadow: 0 3px 10px #00000048;
+  &:hover {
+    box-shadow: 0 3px 10px #00000048;
+  }
 }
 
 .secondary {
