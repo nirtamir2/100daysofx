@@ -1,0 +1,21 @@
+:root {
+    --blue: #5847FF;
+    --red: #DE3618;
+    --white: #FFFFFF;
+    --text: #413E59;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background: linear-gradient(55deg, var(--blue) 0%, var(--blue) 20%, var(--red) 80%, var(--red) 100%);
+    font-size: 16px;
+    height: 100vh;
+    color: var(--text);
+}
+
+* {
+    box-sizing: border-box;
+}
