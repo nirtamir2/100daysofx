@@ -9,11 +9,11 @@ import Toolbar from '@/components/Toolbar.vue'
 import Card from '@/components/Card.vue'
 
 export default {
-  components: {Toolbar, Card}
+  components: { Toolbar, Card }
 }
 </script>
 <style module>
-    .app {
-        padding: 1em 1.5em 1.5em;
-    }
+.app {
+  padding: 1em 1.5em 1.5em;
+}
 </style>

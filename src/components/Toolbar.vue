@@ -10,29 +10,29 @@ import Hamburger from './icons/Hamburger'
 
 export default {
   name: 'Toolbar',
-  components: {Hamburger}
+  components: { Hamburger }
 }
 </script>
 
 <style module>
-    .header {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--white);
-    }
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
 
-    .hamburger {
-        left: 0;
-        position: absolute;
-        cursor: pointer;
-    }
+.hamburger {
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
 
-    .headline {
-        margin: 0;
-        font-size: 2em;
-        justify-self: center;
-        font-weight: initial;
-    }
+.headline {
+  margin: 0;
+  font-size: 2em;
+  justify-self: center;
+  font-weight: initial;
+}
 </style>

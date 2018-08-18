@@ -11,10 +11,10 @@ export default {
 </script>
 
 <style module>
-.card{
-    background-color: var(--white);
-    border-radius: 15px;
-    padding: 1em;
-    box-shadow: 0 3px 6px #00000025;
+.card {
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 1em;
+  box-shadow: 0 3px 6px #00000025;
 }
 </style>

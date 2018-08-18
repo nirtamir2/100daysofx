@@ -12,6 +12,6 @@ import Button from '@/components/Button.vue'
 
 export default {
   name: 'HelloWorld',
-  components: {Card, Button}
+  components: { Card, Button }
 }
 </script>
