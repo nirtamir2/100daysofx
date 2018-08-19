@@ -5,8 +5,8 @@
   </div>
 </template>
 <script>
-import Toolbar from '@/components/Toolbar.vue'
-import Card from '@/components/Card.vue'
+import Toolbar from '@/components/Toolbar'
+import Card from '@/components/Card'
 
 export default {
   components: { Toolbar, Card }

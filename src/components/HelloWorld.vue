@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Card from '@/components/Card.vue'
-import Button from '@/components/Button.vue'
+import Card from '@/components/Card'
+import Button from '@/components/Button'
 
 export default {
   name: 'HelloWorld',
