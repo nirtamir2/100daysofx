@@ -1,7 +1,7 @@
 <template>
-  <header :class="$style.header">
-    <Hamburger :class="$style.hamburger"/>
-    <h1 :class="$style.headline">100 days</h1>
+  <header class="header">
+    <Hamburger class="hamburger"/>
+    <h1 class="headline">100 days</h1>
   </header>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style module>
+<style scoped>
 .header {
   position: relative;
   display: flex;

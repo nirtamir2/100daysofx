@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.card">
+  <div class="card">
     <slot/>
   </div>
 </template>
@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style module>
+<style scoped>
 .card {
   background-color: var(--white);
   border-radius: 15px;

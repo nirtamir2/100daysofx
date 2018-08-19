@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.app">
+  <div class="app">
     <Toolbar/>
     <router-view/>
   </div>
@@ -12,7 +12,7 @@ export default {
   components: { Toolbar, Card }
 }
 </script>
-<style module>
+<style scoped>
 .app {
   padding: 1em 1.5em 1.5em;
 }

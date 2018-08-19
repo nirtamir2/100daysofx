@@ -1,5 +1,5 @@
 <template>
-  <button :class="[$style.button, secondary ? $style.secondary : $style.primary]">
+  <button :class="['button', secondary ? 'secondary' : 'primary']">
     <slot/>
   </button>
 </template>
@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style module>
+<style scoped>
 .button {
   outline: none;
   background-color: var(--blue);
